@@ -1,3 +1,11 @@
+## Descriptions
+
+The script will extract the PCAP TCP/IP stream binary data to get Samba (Microsoft File Sharing) protocol profiles:
+MAC-Address source and targat
+IP-Address source and target
+Port source and target
+Filename, Filesize, and Content.
+
 ## Usage
 
 command:
@@ -17,4 +25,6 @@ output:
 filename: result.json
 
 debug: stdout
+
+
 
